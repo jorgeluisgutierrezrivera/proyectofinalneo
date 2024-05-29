@@ -11,3 +11,4 @@ $routes->get('/', 'Home::index');
 $routes->get('codeigniter', 'Home::code');
 //$routes->get('usuarios', 'Usuarios::index');
 $routes->presenter('usuarios');
+$routes->presenter('clientes');
